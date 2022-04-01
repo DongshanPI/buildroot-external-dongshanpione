@@ -1,0 +1,1 @@
+source "$BR2_EXTERNAL_AUTOSSHKEY_PATH/package/autosshkey/Config.in"

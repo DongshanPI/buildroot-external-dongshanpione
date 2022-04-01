@@ -1,0 +1,19 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BRANCH	common.mk	/^	BRANCH=master$/;"	m	language:Make
+BRANCH	common.mk	/^BRANCH=$(shell git rev-parse --abbrev-ref HEAD)$/;"	m	language:Make
+BRANCH_PREFIX	common.mk	/^        BRANCH_PREFIX=$(BRANCH)-$/;"	m	language:Make
+BUILDROOT_PATH	common.mk	/^BUILDROOT_PATH=.\/buildroot$/;"	m	language:Make
+BUILDROOT_RESCUE_PATH	rescue.mk	/^BUILDROOT_RESCUE_PATH=.\/buildroot_rescue$/;"	m	language:Make
+CCACHEDIR	common.mk	/^CCACHEDIR=$(PWD)\/ccache$/;"	m	language:Make
+DLDIR	common.mk	/^DLDIR=$(PWD)\/dl$/;"	m	language:Make
+OUTPUTS	common.mk	/^OUTPUTS=$(PWD)\/outputs$/;"	m	language:Make
+copy_to_outputs	common.mk	/^define copy_to_outputs$/;"	m	language:Make
+ubi-add-vol	ubi.mk	/^define ubi-add-vol$/;"	m	language:Make
+update_git_package	common.mk	/^define update_git_package$/;"	m	language:Make
+upload_to_tftp	common.mk	/^define upload_to_tftp$/;"	m	language:Make
+upload_to_tftp_with_scp	common.mk	/^define upload_to_tftp_with_scp$/;"	m	language:Make
